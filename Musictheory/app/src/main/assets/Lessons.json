@@ -1,0 +1,381 @@
+{
+  "lessons": [
+    {
+      "topic": "Pitch Part1",
+      "flashcards": [
+        "Every song is built on a scale. If you take a look at songs in the modern age like Kanye West Runaway, the key of the song is in E Major.",
+        "Although a scale is being used. A scale consists of seven notes, or pitches.",
+        "The notes on a scale: Tonic, Supertonic, Mediant, Subdominant, Dominant, Submediant, Leading Tone. It is important to note that right after the Leading tone, the Tonic comes back again",
+        "Now that you have understood the technical names of notes, that are present in every scale. Let's go on to explain the keys on a piano."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is the note that follows the Leading Tone",
+          "Options": [
+            "Subdominant",
+            "Tonic",
+            "Supertonic",
+            "Submediant"
+          ],
+          "CorrectOption": 2
+        },
+        {
+          "Text": "What is the sixth note of a scale called",
+          "Options": [
+            "Tonic",
+            "LeadingTone",
+            "Subdominant",
+            "Submediant"
+          ],
+          "CorrectOption": 3
+        },
+        {
+          "Text": "In the C major scale, which note is the leading note",
+          "Options": [
+            "B",
+            "G",
+            "E",
+            "F"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "In the E minor Scale, which note is the mediant",
+          "Options": [
+            "F#",
+            "A",
+            "C",
+            "G"
+          ],
+          "CorrectOption": 3
+        },
+        {
+          "Text": "In the C major scale, identify which pitch does the note A belong to",
+          "Options": [
+            "Tonic",
+            "LeadingTone",
+            "Submediant",
+            "Dominant"
+          ],
+          "CorrectOption": 2
+        }
+      ]
+    },
+    {
+      "topic": "Pitch Part2",
+      "flashcards": [
+        "The key present right at the center of the keyboard or piano. The note which is present between two consecutive white notes, coming after three black notes is known as C.",
+        "The next white notes are D, E, F, G, A, B, and then going back to C.",
+        "If you look carefully at the piano, between the white notes of C, D, F, G, and A, there are also some black keys present.",
+        "The black key immediately after C is C sharp, for D it is D sharp, and for E it is F sharp. These sharps are often associated with the symbol (#). If you notice, sharps always come after the main note, hence they are called raised notes.",
+        "Another way to name these black keys is by stepping down from the note that comes after it, these notes are called flats. For example, the note after C# is D, so C# can also be known as Db. Flats are indicated with 'b', so C# can also be seen as Db."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is the note that proceeds C",
+          "Options": [
+            "D",
+            "C#/Db",
+            "E",
+            "G"
+          ],
+          "CorrectOption": 1
+        },
+        {
+          "Text": "What is the note before E",
+          "Options": [
+            "Eb/Db",
+            "D",
+            "C",
+            "A"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "What are the black keys called when they are named after the white note",
+          "Options": [
+            "Sharp",
+            "Raised",
+            "Flat",
+            "Lowered"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "What are the black keys called when they are named before the white note",
+          "Options": [
+            "Raised",
+            "Sharp",
+            "Lowered",
+            "Flat"
+          ],
+          "CorrectOption": 3
+        }
+      ]
+    },
+    {
+      "topic": "Scales Part 1",
+      "flashcards": [
+        "Scales are very crucial in music. All songs have a scale in order to be made. One example could be Taylor Swift's 'Blank Space' which is in the key of F major.",
+        "Every scale is built on the rule 'TONE, TONE, SEMITONE, TONE, TONE, TONE, SEMITONE'. This rule only applies to major scales.",
+        "A Tone is when you skip two notes on the piano, and a semitone is when you skip just one. For example, a semitone from C is C# and a tone would be two notes higher from C. The first note C# and the second note being D. Therefore the Tone to C is D.",
+        "With this rule, we can see how the C major scale is built: C, D, E, F, G, A, B, C.",
+        "Knowing what scale a song is in helps us figure out the chords in the song.",
+        "In a harmonic minor scale, the third and sixth notes are lowered."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is the Mediant of the A major scale",
+          "Options": [
+            "D",
+            "F#",
+            "C#",
+            "G"
+          ],
+          "CorrectOption": 2
+        },
+        {
+          "Text": "What proceeds after B in the E major scale",
+          "Options": [
+            "C#",
+            "A",
+            "D",
+            "G#"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "What is the fifth note in the A major Scale",
+          "Options": [
+            "C#",
+            "G",
+            "B",
+            "E"
+          ],
+          "CorrectOption": 3
+        },
+        {
+          "Text": "What proceeds after G# in the B major scale",
+          "Options": [
+            "A#",
+            "F",
+            "A",
+            "D"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "How many notes does a tone skip on the piano",
+          "Options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "CorrectOption": 1
+        },
+        {
+          "Text": "What is the third note in a C minor scale",
+          "Options": [
+            "D#/Eb",
+            "F#/Gb",
+            "G#/Ab",
+            "F#"
+          ],
+          "CorrectOption": 0
+        }
+      ]
+    },
+    {
+      "topic": "Scales Part 2",
+      "flashcards": [
+        "In some cases, certain minor scales are very similar to certain major scales.",
+        "For example, the sixth note in the C major scale (A) has similar notes played when seen side by side.",
+        "The C major scale has all white notes, whereas the A minor harmonic scale has all white notes up until Bb.",
+        "A natural minor scale lowers the third, sixth, and seventh notes of the major scale.",
+        "Comparing the C major scale to the A natural minor scale reveals that all the notes match.",
+        "This is helpful when a vocalist cannot sing in the original key of a song.",
+        "One can start from the sixth note of the original key and play the song in the natural minor scale of that key.",
+        "This gives the illusion that the singer is performing in the original key."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is the natural minor of Eb major",
+          "Options": [
+            "D minor",
+            "A minor",
+            "C minor",
+            "F# minor"
+          ],
+          "CorrectOption": 2
+        },
+        {
+          "Text": "What note in the major scale is the natural minor found",
+          "Options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "CorrectOption": 3
+        },
+        {
+          "Text": "What is the major scale for Eb minor",
+          "Options": [
+            "F minor",
+            "Gb major",
+            "E major",
+            "D# major"
+          ],
+          "CorrectOption": 1
+        }
+      ]
+    },
+    {
+      "topic": "Rhythm",
+      "flashcards": [
+        "In rock and pop music, there is often a break in music where nothing is played.",
+        "In other instances, some chords are held longer than others. This is known as rhythm.",
+        "A whole note or a semibreve means a note is held for four counts. A rest is when nothing is played. A whole note rest means that nothing is played for four counts.",
+        "A half note or minim is held for two counts. A half note rest means silence for two counts.",
+        "A quarter note or crotchet is held for one count. A quarter note rest is silence for one count."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is a rest",
+          "Options": [
+            "A time to sleep",
+            "When nothing is played",
+            "A time for musicians to relax",
+            "When a note is held for too long"
+          ],
+          "CorrectOption": 1
+        },
+        {
+          "Text": "How long is a semiquaver held for",
+          "Options": [
+            "1/4 of a quarter note",
+            "For four counts",
+            "For three counts",
+            "For half of a quarter note"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "How long does a dotted eighth note last for",
+          "Options": [
+            "2/4 of a quarter note",
+            "1/2 a half note",
+            "3/4 of a quarter note",
+            "Three counts"
+          ],
+          "CorrectOption": 2
+        },
+        {
+          "Text": "What is the equivalent of 4 sixteenth notes",
+          "Options": [
+            "1 quarter note",
+            "Half note",
+            "1 eighth note",
+            "A whole note"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "What is the equivalent of 2 sixteenth notes and two eighth notes",
+          "Options": [
+            "1 quarter note",
+            "A whole note",
+            "A half note",
+            "A quaver"
+          ],
+          "CorrectOption": 2
+        },
+        {
+          "Text": "What is a half note also called",
+          "Options": [
+            "A semiquaver",
+            "Quaver",
+            "Quartet",
+            "Minim"
+          ],
+          "CorrectOption": 3
+        }
+      ]
+    },
+    {
+      "topic": "Chords",
+      "flashcards": [
+        "Now we are coming to the basis for the whole backbone of modern-day music. Chords essentially are used in most songs we hear. Whether your favourite artist is Sabrina Carpenter or Billie Eilish, all of them use chords to make their music.",
+        "A chord is built on the first, third, and fifth notes of a scale. Note that if the third note is lowered by one semitone, it will be a minor chord, and if it is not, it is a major chord.",
+        "So a C major chord will be C, E, and G, and a C minor chord would be C, Eb, and G.",
+        "Another thing to understand is that when a chord is played starting with the first note of its scale, it’s known as the root position. In the case of the previous example, the chord was C, E, and G, and as the chord started with the first note of its scale, it's called the root chord. No one stops me from saying that the C major chord can also be played as E, G, and C or C, G, and E.",
+        "These variations of how a chord can be played are known as inversions. If the chord starts from the third note, it is known as the first inversion, and if it starts from the fifth note, it will be known as the second inversion.",
+        "Sometimes even adding the seventh note of the scale that chord is in, in this case, the C major chord, makes the chord have a richer sound. These are known as sevenths, so the major seventh chord would be C, E, G, and B.",
+        "Sometimes playing an inversion rather than the root chord gives a much smoother transition to the chords. It also makes it easier to change from one chord to another, so it helps reduce mistakes when playing. For example, the D minor second inversion and the F minor second inversion are so easy to play one after the other, as they both start on the note A.",
+        "Lastly, keep in mind that the root chord will be referred to by the note like D followed by the Roman numeral i by its side. Like D(i). The first and second inversions would likewise be D(ii) and D(iii)."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is the A minor chord?",
+          "Options": ["A C F", "E A G", "A F G", "A C E"],
+          "CorrectOption": 3
+        },
+        {
+          "Text": "What is the G major chord's first inversion?",
+          "Options": ["G B D", "B D G", "D G B", "G B DF"],
+          "CorrectOption": 1
+        },
+        {
+          "Text": "What is the F# major seventh chord?",
+          "Options": ["A# C# G and F#", "F# G D B", "F# A# C# E", "B D F# E"],
+          "CorrectOption": 2
+        },
+        {
+          "Text": "What is the second inversion of the G# minor chord?",
+          "Options": ["G# B D and F#", "D G# B", "B D G#", "B D F# E"],
+          "CorrectOption": 1
+        }
+      ]
+    },
+
+    {
+      "topic": "Cadences",
+      "flashcards": [
+        "Cadences come under something known as chord progressions. In essence, every chord progression is what makes all music.",
+        "A cadence is known to end the phrase of music.",
+        "A perfect cadence is the chord of the fifth note of a music scale leading to the root chord. This cadence is commonly used to end a piece.",
+        "A plagal cadence is the chord of the fourth note of a music scale leading to the root chord. To create a grander and more complete feeling, a piece may end with a plagal cadence, although this was more popular in the Baroque period of classical music.",
+        "Any chord that transitions to the chord of the fifth note of the music scale forms an imperfect cadence."
+      ],
+      "questionObject": [
+        {
+          "Text": "What is the perfect cadence for the C major scale?",
+          "Options": ["E - C", "G - C", "F - C", "A - C"],
+          "CorrectOption": 1
+        },
+        {
+          "Text": "What is the plagal cadence of Eb major?",
+          "Options": ["Eb - Bb", "C - Eb", "F - Eb", "Ab - Eb"],
+          "CorrectOption": 3
+        },
+        {
+          "Text": "What chord does the imperfect cadence end in?",
+          "Options": [
+            "V (the fifth note of the scale)",
+            "IV (the fourth note of the scale)",
+            "III (the third note of the scale)",
+            "I (the first note of the scale)"
+          ],
+          "CorrectOption": 0
+        },
+        {
+          "Text": "What follows the A minor chord in the D minor scale for a perfect cadence?",
+          "Options": ["C minor", "F major", "D minor", "G major"],
+          "CorrectOption": 2
+        }
+      ]
+    }
+
+  ]
+}
