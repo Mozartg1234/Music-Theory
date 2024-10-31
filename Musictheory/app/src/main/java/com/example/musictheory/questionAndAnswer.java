@@ -50,11 +50,8 @@ public class questionAndAnswer extends AppCompatActivity {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-            textViewQuestionAnswer questionFragment = textViewQuestionAnswer.newInstance(questionText);
-            fragmentTransaction.replace(R.id.fragmentContainerView, questionFragment);
-
-            optionsQuestionAnswerFragment optionsFragment = optionsQuestionAnswerFragment.newInstance(options);
-            fragmentTransaction.replace(R.id.fragmentContainerView2, optionsFragment);
+            LessonsFragment Lesson = LessonsFragment.newInstance(questionText,options);
+            fragmentTransaction.replace(R.id.fragmentContainerView2, Lesson);
 
             fragmentTransaction.commit();
         } else {
