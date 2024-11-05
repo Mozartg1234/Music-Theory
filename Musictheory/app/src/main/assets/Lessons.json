@@ -5,8 +5,8 @@
       "flashcards": [
         "Every song is built on a scale. If you take a look at songs in the modern age like Kanye West Runaway, the key of the song is in E Major.",
         "Although a scale is being used. A scale consists of seven notes, or pitches.",
-        "The notes on a scale: Tonic, Supertonic, Mediant, Subdominant, Dominant, Submediant, Leading Tone. It is important to note that right after the Leading tone, the Tonic comes back again",
-        "Now that you have understood the technical names of notes, that are present in every scale. Let's go on to explain the keys on a piano."
+        "The notes on a scale: Tonic, Supertonic, Mediant, Subdominant, Dominant, Submediant, Leading Tone. It is important to note that right after the Leading tone, the Tonic comes back again"
+
       ],
       "questionObject": [
         {
@@ -17,7 +17,7 @@
             "Supertonic",
             "Submediant"
           ],
-          "CorrectOption": 2
+          "CorrectOption": 1
         },
         {
           "Text": "What is the sixth note of a scale called",
@@ -27,7 +27,7 @@
             "Subdominant",
             "Submediant"
           ],
-          "CorrectOption": 3
+          "CorrectOption": 2
         },
         {
           "Text": "In the C major scale, which note is the leading note",
@@ -84,7 +84,7 @@
         {
           "Text": "What is the note before E",
           "Options": [
-            "Eb/Db",
+            "Eb/D#",
             "D",
             "C",
             "A"
