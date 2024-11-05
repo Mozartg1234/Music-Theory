@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".questionAndAnswer">
+    tools:context=".Lesson">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
@@ -17,7 +17,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView2"
-            android:name="com.example.musictheory.LessonsFragment"
+            android:name="com.example.musictheory.questionfragment"
             android:layout_width="410dp"
             android:layout_height="733dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -31,11 +31,11 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="40dp"
+            android:layout_marginEnd="124dp"
             android:layout_marginBottom="176dp"
-            android:onClick="next"
-            android:text="Next Question"
+            android:text="Next"
             app:layout_constraintBottom_toBottomOf="@+id/fragmentContainerView2"
             app:layout_constraintEnd_toEndOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
