@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             lessonsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent = new Intent(MainActivity.this, questionAndAnswer.class);
+                    Intent intent = new Intent(MainActivity.this, Lesson.class);
                     LessonsView selectedLesson = arrayList.get(position);
                     intent.putExtra("selectedLesson", selectedLesson);
                     Toast.makeText(view.getContext(), "Clicked position " + position, Toast.LENGTH_LONG).show();
