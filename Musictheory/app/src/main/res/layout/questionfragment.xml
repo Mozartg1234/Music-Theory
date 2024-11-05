@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LessonsFragment">
+
+    tools:context=".questionfragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -25,6 +26,7 @@
         <Button
             android:id="@+id/button6"
             android:layout_width="260dp"
+
             android:layout_height="51dp"
             android:layout_marginStart="72dp"
             android:layout_marginTop="36dp"
@@ -45,6 +47,7 @@
         <Button
             android:id="@+id/button8"
             android:layout_width="256dp"
+
             android:layout_height="51dp"
             android:layout_marginTop="32dp"
             android:text="Button"
@@ -55,6 +58,7 @@
         <Button
             android:id="@+id/button9"
             android:layout_width="258dp"
+
             android:layout_height="52dp"
             android:layout_marginTop="36dp"
             android:text="Button"
@@ -69,7 +73,7 @@
             android:layout_marginTop="4dp"
             android:src="@drawable/img_1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintHorizontal_bias="0.516"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button9" />
 
