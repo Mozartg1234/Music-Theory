@@ -44,11 +44,11 @@ public class LessonsViewAdapter extends ArrayAdapter<LessonsView> {
 
         // Set the image resource
         ImageView numbersImage = currentItemView.findViewById(R.id.img_png);
-        numbersImage.setImageResource(currentNumberPosition.getNumbersImageId());
+        numbersImage.setImageResource(currentNumberPosition.getImageId());
 
         // Set the first text view (digit)
         TextView textView1 = currentItemView.findViewById(R.id.textView1);
-        textView1.setText(currentNumberPosition.getNumberInDigit());
+        textView1.setText(currentNumberPosition.getChapterName());
 
         return currentItemView;
     }

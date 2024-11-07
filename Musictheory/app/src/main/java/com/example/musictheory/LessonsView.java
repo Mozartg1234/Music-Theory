@@ -1,19 +1,16 @@
 package com.example.musictheory;
 
-import org.json.JSONArray;
-
 import java.io.Serializable;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class LessonsView implements Serializable {
-    private int mNumbersImageId;  // Holds the resource ID for the image
+    private int mImageId;  // Holds the resource ID for the image
 
     // TextView 1: Holds the number in digits (e.g., "1")
-    private String mNumberInDigit;
+    private String mChapterName;
 
     // TextView 2: Holds the number in text (e.g., "One")
-    private String mNumberInText;
+    private String mRating;
 
     private ArrayList<Question> mQuestions;
 
@@ -21,30 +18,30 @@ public class LessonsView implements Serializable {
 
 
     // Constructor to set the values for all the parameters of a single view
-    public LessonsView(int numbersImageId, String numberInDigit, String numberInText, ArrayList<Question> Question, ArrayList<String> Flashcards) {
-        mNumbersImageId = numbersImageId;
-        mNumberInDigit = numberInDigit;
-        mNumberInText = numberInText;
+    public LessonsView(int numbersImageId, String chapterName, String Rating, ArrayList<Question> Question, ArrayList<String> Flashcards) {
+        mImageId = numbersImageId;
+        mChapterName = chapterName;
+        mRating = Rating;
         mQuestions = Question;
         mFlashcards = Flashcards;
     }
 
     // Getter method for returning the image resource ID
-    public int getNumbersImageId() {
+    public int getImageId() {
 
-        return mNumbersImageId;
+        return mImageId;
     }
 
     // Getter method for returning the number in digits (TextView 1)
-    public String getNumberInDigit() {
+    public String getChapterName() {
 
-        return mNumberInDigit;
+        return mChapterName;
     }
 
     // Getter method for returning the number in text (TextView 2)
-    public String getNumberInText() {
+    public String getRating() {
 
-        return mNumberInText;
+        return mRating;
     }
 
     public ArrayList<Question> getmQuestion() {
