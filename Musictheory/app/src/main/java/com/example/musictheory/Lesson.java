@@ -3,6 +3,7 @@ package com.example.musictheory;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -53,7 +54,7 @@ public class Lesson extends AppCompatActivity implements questionfragment.OnInde
 
     private void showQuestion(int index) {
         Button next1 = findViewById(R.id.button);
-        next1.setEnabled(false);
+        next1.setVisibility(View.GONE);
         ArrayList<Question> questions = selectedLesson != null ? selectedLesson.getmQuestion() : null;
         if (questions == null || index >= questions.size()) {
             Log.d("Lesson", "No more questions.");

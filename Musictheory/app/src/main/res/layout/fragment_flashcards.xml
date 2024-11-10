@@ -16,7 +16,7 @@
             android:layout_height="317dp"
             android:layout_marginTop="176dp"
             android:text="TextView"
-            android:textColor="@color/white"
+            android:textColor="#FFC0CB"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -28,6 +28,7 @@ public class LessonsListActivity extends AppCompatActivity {
         // Enable edge-to-edge display
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_lessons_list);
+        Intent intent = getIntent();
 
         // Adjust window insets for system bars
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
