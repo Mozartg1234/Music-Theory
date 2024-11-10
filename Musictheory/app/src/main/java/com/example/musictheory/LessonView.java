@@ -3,7 +3,7 @@ package com.example.musictheory;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class LessonsView implements Serializable {
+public class LessonView implements Serializable {
     private int mImageId;  // Holds the resource ID for the image
 
     // TextView 1: Holds the number in digits (e.g., "1")
@@ -18,7 +18,7 @@ public class LessonsView implements Serializable {
 
 
     // Constructor to set the values for all the parameters of a single view
-    public LessonsView(int numbersImageId, String chapterName, String Rating, ArrayList<Question> Question, ArrayList<String> Flashcards) {
+    public LessonView(int numbersImageId, String chapterName, String Rating, ArrayList<Question> Question, ArrayList<String> Flashcards) {
         mImageId = numbersImageId;
         mChapterName = chapterName;
         mRating = Rating;

@@ -37,7 +37,7 @@ public class LessonsListActivity extends AppCompatActivity {
             return insets;
         });
 
-        final ArrayList<LessonsView> arrayList = new ArrayList<>();
+        final ArrayList<LessonView> arrayList = new ArrayList<>();
 
         // Load JSON data from the assets and populate the ArrayList
         try {
@@ -87,7 +87,7 @@ public class LessonsListActivity extends AppCompatActivity {
                         }
 
                         // Create LessonsView object and add it to the array list
-                        LessonsView lessonsObject = new LessonsView(R.drawable.img, chapter, "4.5", questions, flashcards);
+                        LessonView lessonsObject = new LessonView(R.drawable.img, chapter, "4.5", questions, flashcards);
                         arrayList.add(lessonsObject);
                     } else {
                         Log.d("message", "No topic found for lesson " + i);
@@ -112,8 +112,8 @@ public class LessonsListActivity extends AppCompatActivity {
             lessonsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent = new Intent(LessonsListActivity.this, Lesson.class);
-                    LessonsView selectedLesson = arrayList.get(position);
+                    Intent intent = new Intent(LessonsListActivity.this, LessonActivity.class);
+                    LessonView selectedLesson = arrayList.get(position);
                     intent.putExtra("selectedLesson", selectedLesson);
                     Toast.makeText(view.getContext(), "Clicked position " + position, Toast.LENGTH_LONG).show();
                     startActivity(intent);

@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class Lesson extends AppCompatActivity implements questionfragment.OnIndexPass {
-    private LessonsView selectedLesson;
+public class LessonActivity extends AppCompatActivity implements questionfragment.OnIndexPass {
+    private LessonView selectedLesson;
     private int currentIndex = 0;
     private boolean showingFlashcards = true;
 
@@ -21,7 +21,7 @@ public class Lesson extends AppCompatActivity implements questionfragment.OnInde
         setContentView(R.layout.lesson);
 
         Intent intent = getIntent();
-        selectedLesson = (LessonsView) intent.getSerializableExtra("selectedLesson");
+        selectedLesson = (LessonView) intent.getSerializableExtra("selectedLesson");
 
         if (selectedLesson != null) {
             showFlashcard(currentIndex);
@@ -48,7 +48,7 @@ public class Lesson extends AppCompatActivity implements questionfragment.OnInde
     }
 
     public void toc() {
-        Intent intent = new Intent(Lesson.this, LessonsListActivity.class);
+        Intent intent = new Intent(LessonActivity.this, LessonsListActivity.class);
         startActivity(intent);
     }
 

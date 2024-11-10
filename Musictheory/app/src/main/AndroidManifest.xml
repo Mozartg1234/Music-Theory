@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Lesson"
+            android:name=".LessonActivity"
             android:exported="false" />
         <activity
             android:name=".LessonsListActivity"

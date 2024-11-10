@@ -14,9 +14,9 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-public class LessonsViewAdapter extends ArrayAdapter<LessonsView> {
+public class LessonsViewAdapter extends ArrayAdapter<LessonView> {
     // Constructor for LessonsViewAdapter
-    public LessonsViewAdapter(@NonNull Context context, ArrayList<LessonsView> arrayList) {
+    public LessonsViewAdapter(@NonNull Context context, ArrayList<LessonView> arrayList) {
         // Pass the context and arrayList to the super constructor of ArrayAdapter
         super(context, 0, arrayList);
     }
@@ -37,7 +37,7 @@ public class LessonsViewAdapter extends ArrayAdapter<LessonsView> {
         }
 
         // Get the current LessonsView object at this position
-        LessonsView currentNumberPosition = getItem(position);
+        LessonView currentNumberPosition = getItem(position);
 
         // Ensure the currentNumberPosition is not null
         assert currentNumberPosition != null;
