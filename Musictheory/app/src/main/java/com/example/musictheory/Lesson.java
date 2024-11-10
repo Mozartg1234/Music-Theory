@@ -3,7 +3,6 @@ package com.example.musictheory;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -48,7 +47,7 @@ public class Lesson extends AppCompatActivity implements questionfragment.OnInde
     }
 
     public void toc() {
-        Intent intent = new Intent(Lesson.this, MainActivity.class);
+        Intent intent = new Intent(Lesson.this, LessonsListActivity.class);
         startActivity(intent);
     }
 

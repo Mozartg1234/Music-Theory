@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class LessonsListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             lessonsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent = new Intent(MainActivity.this, Lesson.class);
+                    Intent intent = new Intent(LessonsListActivity.this, Lesson.class);
                     LessonsView selectedLesson = arrayList.get(position);
                     intent.putExtra("selectedLesson", selectedLesson);
                     Toast.makeText(view.getContext(), "Clicked position " + position, Toast.LENGTH_LONG).show();
