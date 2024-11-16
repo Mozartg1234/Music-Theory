@@ -46,9 +46,12 @@ public class LessonsViewAdapter extends ArrayAdapter<LessonView> {
         ImageView numbersImage = currentItemView.findViewById(R.id.img_png);
         numbersImage.setImageResource(currentNumberPosition.getImageId());
 
-        // Set the first text view (digit)
+        // Set the first text view (chapterName)
         TextView textView1 = currentItemView.findViewById(R.id.textView1);
         textView1.setText(currentNumberPosition.getChapterName());
+
+        TextView textView2 = currentItemView.findViewById(R.id.textView2);
+        textView2.setText(currentNumberPosition.getStatus());
 
         return currentItemView;
     }

@@ -9,8 +9,11 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="772dp">
+        android:layout_height="match_parent"
+        app:layout_anchor="@+id/constraintLayout"
+        app:layout_anchorGravity="center">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -35,27 +38,47 @@
             app:srcCompat="@drawable/img" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/start_resume_button"
             android:layout_width="158dp"
             android:layout_height="54dp"
-            android:onClick="tableofContents"
-            android:text="Start"
-            android:textColor="#FFC0CB"
+            android:backgroundTint="#FFD700"
+            android:textColor="#800080"
+            android:onClick="startResumeButtonClick"
+            android:text="@string/start"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="0.572" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
-            android:text="Music Theory"
+            android:layout_height="wrap_content"
+            android:text="@string/music_theory"
             android:textColor="#7DF9FF"
-            app:layout_constraintBottom_toTopOf="@+id/button2"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/start_resume_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView5"
             app:layout_constraintVertical_bias="0.172" />
+
+        <Button
+            android:id="@+id/table_of_contents_button"
+            android:layout_width="159dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#FFD700"
+            android:textColor="#800080"
+            android:layout_marginTop="44dp"
+            android:onClick="tableofContents"
+            android:text="@string/table_of_contents"
+            app:layout_constraintBottom_toTopOf="@+id/start_resume_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.054" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,13 +1,16 @@
 package com.example.musictheory;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
+import java.util.HashSet;
+import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
-
+import java.util.Set;
 import java.util.ArrayList;
 
 public class LessonActivity extends AppCompatActivity implements questionfragment.OnIndexPass {
@@ -48,14 +51,29 @@ public class LessonActivity extends AppCompatActivity implements questionfragmen
     }
 
     public void toc() {
-        Intent intent = new Intent(LessonActivity.this, LessonsListActivity.class);
-        startActivity(intent);
+        SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.preference_key_value), Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+        // Retrieve the current set and create a new one to avoid modifying the original set directly
+        Set<String> completedChapters = new HashSet<>(sharedPreferences.getStringSet("completedChapters", new HashSet<>()));
+
+        // Add the current lesson to the completed chapters
+        completedChapters.add(selectedLesson.getChapterName());
+
+        // Save the modified set back to SharedPreferences
+        editor.putStringSet("completedChapters", completedChapters);
+        editor.apply();
+
+        Log.d("Lesson Completion", "Lesson marked as completed: " + selectedLesson.getChapterName());
+
+        finish();
     }
 
     private void showQuestion(int index) {
         Button next1 = findViewById(R.id.button);
-        next1.setVisibility(View.GONE);
+        next1.setVisibility(View.INVISIBLE); // Use INVISIBLE so it can be enabled later
         ArrayList<Question> questions = selectedLesson != null ? selectedLesson.getmQuestion() : null;
+
         if (questions == null || index >= questions.size()) {
             Log.d("Lesson", "No more questions.");
             toc();

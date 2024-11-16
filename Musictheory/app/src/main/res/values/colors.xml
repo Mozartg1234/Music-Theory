@@ -5,4 +5,7 @@
     <color name="red">#FF0000</color>
     <color name="yellow">#FFFF00</color>
     <color name="beach">#C2B280</color>
+    <color name="neon_blue">#7DF9FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
 </resources>

@@ -26,6 +26,17 @@
             android:textSize="18sp"
             android:textStyle="bold"
             tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="bottom|left"
+            android:textColor="#FFC107"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
 
     </LinearLayout>
 </LinearLayout>

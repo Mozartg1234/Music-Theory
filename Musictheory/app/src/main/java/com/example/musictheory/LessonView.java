@@ -10,7 +10,7 @@ public class LessonView implements Serializable {
     private String mChapterName;
 
     // TextView 2: Holds the number in text (e.g., "One")
-    private String mRating;
+    private String mstatus;
 
     private ArrayList<Question> mQuestions;
 
@@ -18,10 +18,10 @@ public class LessonView implements Serializable {
 
 
     // Constructor to set the values for all the parameters of a single view
-    public LessonView(int numbersImageId, String chapterName, String Rating, ArrayList<Question> Question, ArrayList<String> Flashcards) {
+    public LessonView(int numbersImageId, String chapterName, String Status, ArrayList<Question> Question, ArrayList<String> Flashcards) {
         mImageId = numbersImageId;
         mChapterName = chapterName;
-        mRating = Rating;
+        mstatus = Status;
         mQuestions = Question;
         mFlashcards = Flashcards;
     }
@@ -39,9 +39,13 @@ public class LessonView implements Serializable {
     }
 
     // Getter method for returning the number in text (TextView 2)
-    public String getRating() {
+    public String getStatus() {
 
-        return mRating;
+        return mstatus;
+    }
+
+    public void setStatus(String Value){
+        mstatus = Value;
     }
 
     public ArrayList<Question> getmQuestion() {
