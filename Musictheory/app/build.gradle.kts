@@ -4,16 +4,16 @@ plugins {
 
 android {
     namespace = "com.example.musictheory"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.musictheory"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 35
+        versionCode = 3
+        versionName = "1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        applicationId = "com.activeforces.musictheory"
     }
 
     buildTypes {
@@ -32,6 +32,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    buildToolsVersion = "35.0.0"
 }
 
 dependencies {
